@@ -1,0 +1,19 @@
+[*]
+[dumpfile] "ahb_apb_bridge.vcd"
+[timestart] 0
+tb_ahb_apb_bridge.HCLK
+tb_ahb_apb_bridge.HRESETn
+tb_ahb_apb_bridge.HSEL
+tb_ahb_apb_bridge.HADDR[31:0]
+tb_ahb_apb_bridge.HTRANS[1:0]
+tb_ahb_apb_bridge.HWRITE
+tb_ahb_apb_bridge.HWDATA[31:0]
+tb_ahb_apb_bridge.HREADYOUT
+tb_ahb_apb_bridge.HRDATA[31:0]
+tb_ahb_apb_bridge.u_bridge.state[1:0]
+tb_ahb_apb_bridge.PSEL
+tb_ahb_apb_bridge.PENABLE
+tb_ahb_apb_bridge.PADDR[31:0]
+tb_ahb_apb_bridge.PWDATA[31:0]
+tb_ahb_apb_bridge.PREADY
+tb_ahb_apb_bridge.PRDATA[31:0]
