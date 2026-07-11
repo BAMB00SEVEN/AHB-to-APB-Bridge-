@@ -6,8 +6,8 @@ A synthesizable AHB-Lite ⇄ APB bridge, written and verified as part of my VLSI
 [![Waveform](https://img.shields.io/badge/waveform-GTKWave-green)](https://github.com/gtkwave/gtkwave)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-
-[![Certification](https://img.shields.io/badge/Certification-2E933C)](Certification.pdf)
+--- 
+**Here is the attached Ceritfication for the project** -- [![Certification](https://img.shields.io/badge/Certification-2E933C)](Certification.pdf)
 
 --- 
 
