@@ -225,6 +225,5 @@ Verified with a 2-cycle `PREADY` wait-state slave (`WAIT_CYCLES = 2` in `apb_sla
 
 Released under the [MIT License](LICENSE).
 
----
 
-**Author:** Parth Batra · [LinkedIn](https://linkedin.com/in/myself-parthbatra)
+
