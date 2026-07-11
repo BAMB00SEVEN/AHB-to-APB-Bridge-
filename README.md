@@ -2,8 +2,8 @@
 
 A synthesizable AHB-Lite ⇄ APB bridge, written and verified as part of my VLSI Design internship at **Maven Silicon**. It converts single AHB-Lite transfers from a high-performance system bus into the SETUP/ACCESS handshake required by APB peripherals, including support for APB wait states via `PREADY`.
 
-[![Simulator](https://img.shields.io/badge/simulator-Icarus%20Verilog-blue)]()
-[![Waveform](https://img.shields.io/badge/waveform-GTKWave-green)]()
+[![Simulator](https://img.shields.io/badge/simulator-Icarus%20Verilog-blue)](https://github.com/steveicarus/iverilog)
+[![Waveform](https://img.shields.io/badge/waveform-GTKWave-green)](https://github.com/gtkwave/gtkwave)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 ---
