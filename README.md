@@ -8,7 +8,8 @@ A synthesizable AHB-Lite ⇄ APB bridge, written and verified as part of my VLSI
 
 
 Completion Certificate is attached here -- [! Certification](https://img.shields.io/badge/Certification-2E933C)(Certification.pdf)
----
+
+--- 
 
 ## Table of Contents
 
