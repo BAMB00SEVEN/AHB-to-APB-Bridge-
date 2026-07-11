@@ -11,8 +11,6 @@
 //               This bridge targets a single downstream APB peripheral.
 //               For multiple peripherals, instantiate an address decoder
 //               ahead of PSEL (see docs/architecture.md, "Future Work").
-//
-// Author      : Parth Batra
 //=============================================================================
 
 module ahb_apb_bridge #(
