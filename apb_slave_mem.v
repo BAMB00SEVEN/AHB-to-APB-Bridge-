@@ -6,7 +6,6 @@
 //               Zero-wait-state (PREADY tied high) by default; the
 //               WAIT_CYCLES parameter can inject extra wait states to
 //               exercise the bridge's PREADY-stall handling.
-// Author      : Parth Batra
 //=============================================================================
 
 module apb_slave_mem #(
