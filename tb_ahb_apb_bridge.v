@@ -4,7 +4,6 @@
 //               Drives AHB-Lite single-transfer writes/reads, checks
 //               read-back data, and reports a PASS/FAIL summary.
 //               Simulator target: Icarus Verilog (iverilog + vvp).
-// Author      : Parth Batra
 //=============================================================================
 `timescale 1ns/1ps
 
