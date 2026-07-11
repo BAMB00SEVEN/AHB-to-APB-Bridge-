@@ -134,7 +134,7 @@ ahb-apb-bridge/
 
 ## Getting Started
 
-**Prerequisites:** [Icarus Verilog](http://iverilog.icarus.com/) (`iverilog`, `vvp`) and, optionally, [GTKWave](https://gtkwave.sourceforge.net/) for waveform viewing.
+**Prerequisites:** [Icarus Verilog]([http://iverilog.icarus.com/]) (`iverilog`, `vvp`) and, optionally, [GTKWave](https://gtkwave.sourceforge.net/) for waveform viewing.
 
 ```bash
 # Debian/Ubuntu
@@ -208,7 +208,7 @@ Verified with a 2-cycle `PREADY` wait-state slave (`WAIT_CYCLES = 2` in `apb_sla
 
 ## Key Learnings
 
-- The trickiest part wasn't the FSM itself — it was getting the **combinational vs. registered timing right at the AHB/APB boundary**: `HREADYOUT`, `HRDATA`, and the APB peripheral's `PRDATA` all have to settle within the *same* cycle for a zero-latency read, which isn't obvious from the protocol diagrams alone.
+- The trickiest part wasn't the FSM itself -- it was getting the **combinational vs. registered timing right at the AHB/APB boundary**: `HREADYOUT`, `HRDATA`, and the APB peripheral's `PRDATA` all have to settle within the *same* cycle for a zero-latency read, which isn't obvious from the protocol diagrams alone.
 - Writing a small **self-checking testbench early** (rather than eyeballing waveforms) caught a same-edge data-capture bug that would have been very easy to miss by inspection.
 - Parameterizing the peripheral's wait states (`WAIT_CYCLES`) turned out to be the easiest way to confidently exercise the bridge's stall logic, instead of only ever testing the zero-wait-state case.
 
