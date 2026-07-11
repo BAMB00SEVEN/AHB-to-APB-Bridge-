@@ -7,7 +7,7 @@ A synthesizable AHB-Lite ⇄ APB bridge, written and verified as part of my VLSI
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 
-Completion Certificate is attached here -- [Certification](https://img.shields.io/badge/Certification)(Certification.pdf)
+Completion Certificate is attached here -- [! Certification](https://img.shields.io/badge/Certification)(Certification.pdf)
 ---
 
 ## Table of Contents
