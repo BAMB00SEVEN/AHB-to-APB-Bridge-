@@ -194,7 +194,7 @@ Verified with a 2-cycle `PREADY` wait-state slave (`WAIT_CYCLES = 2` in `apb_sla
 
 ## Sample Waveform
 
-![AHB write followed by AHB read, showing the SETUP/ACCESS APB handshake](docs/waveform_write_read.png)
+![AHB write followed by AHB read, showing the SETUP/ACCESS APB handshake](waveform_write_read.png)
 
 *A single AHB write of `0xDEADBEEF` to address `0x0`, followed by an AHB read of the same address — `HREADYOUT` drops during `SETUP`/`ACCESS` and the read data appears on `HRDATA` in the same cycle it returns high.*
 
